@@ -19,7 +19,7 @@ export default function manifest(): MetadataRoute.Manifest {
         ],
         theme_color: "#080E20",
         background_color: "#9333EA",
-        start_url: "/dashboard",
+        start_url: "/",
         display: "standalone",
         orientation: "portrait",
         scope: "/",

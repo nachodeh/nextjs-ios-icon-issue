@@ -17,31 +17,31 @@ const geistMono = localFont({
 const coreOpenGraph = {
   title: "mentor",
   description:
-      "Simplify, understand, learn and get things done with your personal assistant. Designed to guide and support, Mentor is your solution for personal and professional growth.",
-  url: "https://goalmentor.app/",
-  siteName: "mentor",
+      "A random description as a filler",
+  url: "https://nextjs-ios-icon-issue.vercel.app",
+  siteName: "My test app",
   locale: "en_US",
   type: "website",
   images: [
       {
           url: "https://d3oz27zfogf62e.cloudfront.net/opengraph.png",
-          alt: "mentor | Simplify, understand, learn and get things done with your personal assistant",
+          alt: "Testing the splash screen and icon",
       },
   ],
 }
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://goalmentor.app/"),
+  metadataBase: new URL("https://nextjs-ios-icon-issue.vercel.app"),
   alternates: {
       canonical: "/",
   },
   title: {
-      default: "mentor | Achieve your goals",
-      template: "mentor | %s",
+      default: "My app",
+      template: "Home | %s",
   },
   description:
-      "Simplify, understand, learn and get things done with your personal assistant. Designed to guide and support, Mentor is your solution for personal and professional growth.",
+      "Create a sample where splash screen and icon work",
   openGraph: {
       ...coreOpenGraph,
   },
@@ -57,24 +57,14 @@ export const metadata: Metadata = {
       },
   },
   twitter: {
-      title: "mentor",
+      title: "My test app",
       card: "summary_large_image",
   },
-  // icons: {
-  //     icon: "/logo.png",
-  //     apple: "/logo-maskable.png",
-  // },
-  // appleWebApp: {
-  //     title: "Mentor",
-  //     capable: true,
-  //     statusBarStyle: "black-translucent",
-  // },
-  // other: {
-  //     // "apple-touch-icon": "/logo-maskable.png",
-  //     // "apple-mobile-web-app-title": "Mentor",
-  //     "apple-mobile-web-app-capable": "yes",
-  //     // "apple-mobile-web-app-status-bar-style": "black-translucent",
-  // },
+  appleWebApp: {
+      title: "My test app",
+      capable: true,
+      statusBarStyle: "black-translucent",
+  },
 }
 
 export const viewport: Viewport = {
